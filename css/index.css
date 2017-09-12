@@ -1,0 +1,53 @@
+.banner{
+    padding: 0;
+}
+.swiper-container{
+    width: 100%;
+    //height: 100%;
+    height: 700px;
+    background: #000;
+}
+.swiper-slide {
+    font-size: 18px;
+    color:#fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*padding: 80px 60px;*/
+}
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+    margin-top: 10%;
+    margin-left:20%;
+}
+.swiper-slide .subtitle {
+    font-size: 21px;
+    margin-left:20%;
+}
+.swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+    margin-left:20%;
+}
+.banner img{
+    width: 100%;
+    height:100%;
+    position: absolute;
+}
+/*关于我们*/
+.about_us{
+    width: 100%;
+    height: 400px;
+    background:#FCFBF7;
+}
